@@ -3,5 +3,5 @@ sudo apt update
 sudo apt install xfce4 xfce4-goodies xrdp -y
 sudo adduser xrdp ssl-cert
 sudo systemctl enable xrdp
-sudo update-alternatives --config x-session-manager /usr/bin/startxfce4
+sudo update-alternatives --config x-session-manager 
 sudo service xrdp restart
